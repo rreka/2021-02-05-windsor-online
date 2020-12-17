@@ -539,10 +539,10 @@ during the workshop.
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">install.packages</span>(<span class="kw">c</span>(<span class="st">"tidyverse"</span>, <span class="st">"hexbin"</span>, <span class="st">"patchwork"</span>, <span class="st">"RSQLite"</span>))</code></pre></div>
 <p>Alternatively, you can install the packages using RStudio's graphical user interface by going to <code>Tools &gt; Install Packages</code> and typing the names of the packages separated by a comma.</p>
 <p>R tries to download and install the packages on your machine. When the installation has finished, you can try to load the packages by pasting the following code into the console:</p>
-<div class="sourceCode"><code class="sourceCode r"><span class="kw">library</span>(tidyverse)
+<div class="sourceCode"><pre><code><span class="kw">library</span>(tidyverse)
 <span class="kw">library</span>(hexbin)
 <span class="kw">library</span>(patchwork)
-<span class="kw">library</span>(RSQLite)</code></div>
+<span class="kw">library</span>(RSQLite)</code></pre></div>
 <p>If you do not see an error like <code>there is no package called ‘...’</code> you are good to go!</p>
 </div>
 
