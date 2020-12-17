@@ -342,16 +342,24 @@ of code below the Schedule `<h2>` header below with
     <h4>Getting started with R</h4>
     <table class="table table-striped">
       <tr>               <!-- row 1   -->
-        <td></td>        <!-- time    -->
-        <td></td>        <!-- content -->
+        <td>9:30 am</td>        <!-- time    -->
+        <td>Introductions</td>        <!-- content -->
       </tr>
       <tr>               <!-- row 2   -->
-        <td></td>        <!-- time    -->
-        <td></td>        <!-- content -->
+        <td>9:45 am</td>        <!-- time    -->
+        <td>How the workshop will work</td>        <!-- content -->
       </tr>
       <tr>               <!-- row 3   -->
-        <td></td>        <!-- time    -->
-        <td></td>        <!-- content -->
+        <td>10:00 am</td>        <!-- time    -->
+        <td>R, RStudio and getting help</td>        <!-- content -->
+      </tr>
+      <tr>               <!-- row 3   -->
+        <td>11:00 am</td>        <!-- time    -->
+        <td>Break</td>        <!-- content -->
+      </tr>
+      <tr>               <!-- row 3   -->
+        <td>11:20 am</td>        <!-- time    -->
+        <td>Objects, vectors, data types & subsetting</td>        <!-- content -->
       </tr>
     </table>
   </div>
@@ -362,16 +370,24 @@ of code below the Schedule `<h2>` header below with
     <h4>Working with data in R</h4>
     <table class="table table-striped">
       <tr>               <!-- row 1   -->
-        <td></td>        <!-- time    -->
-        <td></td>        <!-- content -->
+        <td>9:30 am</td>        <!-- time    -->
+        <td>Loading data & data frames</td>        <!-- content -->
       </tr>
       <tr>               <!-- row 2   -->
-        <td></td>        <!-- time    -->
-        <td></td>        <!-- content -->
+        <td>10:30 am</td>        <!-- time    -->
+        <td>Break</td>        <!-- content -->
       </tr>
       <tr>               <!-- row 3   -->
-        <td>End</td>
-        <td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
+        <td>10:40 am</td>
+        <td>Factors & formating dates</td>
+      </tr>
+      <tr>               <!-- row 3   -->
+        <td>11:15 am</td>
+        <td>Break</td>
+      </tr>
+      <tr>               <!-- row 3   -->
+        <td>11:30 am</td>
+        <td>dyplr and tidyr</td>
       </tr>
     </table>
   </div>
@@ -380,12 +396,16 @@ of code below the Schedule `<h2>` header below with
     <h4>Data visualization in R</h4>
     <table class="table table-striped">
       <tr>               <!-- row 1   -->
-        <td></td>        <!-- time    -->
-        <td></td>        <!-- content -->
+        <td>9:30 am</td>        <!-- time    -->
+        <td>Plotting with ggplot2</td>        <!-- content -->
       </tr>
       <tr>               <!-- row 2   -->
-        <td></td>        <!-- time    -->
-        <td></td>        <!-- content -->
+        <td>10:30 am</td>        <!-- time    -->
+        <td>Break</td>        <!-- content -->
+      </tr>
+      <tr>               <!-- row 2   -->
+        <td>10:50 am</td>        <!-- time    -->
+        <td>Faceting, customization and exporting plots</td>        <!-- content -->
       </tr>
       <tr>               <!-- row 3   -->
         <td>End</td>
