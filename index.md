@@ -314,13 +314,67 @@ of code below the Schedule `<h2>` header below with
 
 <h2 id="schedule">Schedule</h2>
 
-{% if site.carpentry == "swc" %}
-{% include swc/schedule.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/schedule.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/schedule.html %}
-{% endif %}
+<div class="row">        <!-- first two days -->
+  <div class="col-md-6"> <!-- left column -->
+    <h3>Session 1</h3>
+    <table class="table table-striped">
+      <tr>               <!-- row 1   -->
+        <td>Before starting</td>
+        <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
+      </tr>
+      <tr>               <!-- row 2   -->
+        <td></td>        <!-- time    -->
+        <td></td>        <!-- content -->
+      </tr>
+      <tr>               <!-- row 3   -->
+        <td></td>        <!-- time    -->
+        <td></td>        <!-- content -->
+      </tr>
+    </table>
+  </div>
+  <div class="col-md-6"> <!-- right column -->
+    <h3>Session 2</h3>
+    <table class="table table-striped">
+      <tr>               <!-- row 1   -->
+        <td></td>        <!-- time    -->
+        <td></td>        <!-- content -->
+      </tr>
+      <tr>               <!-- row 2   -->
+        <td></td>        <!-- time    -->
+        <td></td>        <!-- content -->
+      </tr>
+      <tr>               <!-- row 3   -->
+        <td></td>        <!-- time    -->
+        <td></td>        <!-- content -->
+      </tr>
+    </table>
+  </div>
+</div>
+<div class="row">        <!-- days 3 and 4 -->
+  <div class="col-md-6"> <!-- left column -->
+    <h3>Session 3</h3>
+    <table class="table table-striped">
+      <tr>               <!-- row 1   -->
+        <td></td>        <!-- time    -->
+        <td></td>        <!-- content -->
+      </tr>
+      <tr>               <!-- row 2   -->
+        <td></td>        <!-- time    -->
+        <td></td>        <!-- content -->
+      </tr>
+      <tr>               <!-- row 3   -->
+        <td>End</td>
+        <td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+
+
+
+
+
 
 <hr/>
 
