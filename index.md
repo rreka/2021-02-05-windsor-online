@@ -86,6 +86,7 @@ displayed if the 'eventbrite' field in the header is not set.
 
 
 <h2 id="general">General Information</h2>
+<h3>Our workshop</h3>
 
 {% comment %}
 INTRODUCTION
@@ -100,6 +101,9 @@ the pitch.
 {% elsif site.carpentry == "lc" %}
 {% include lc/intro.html %}
 {% endif %}
+
+<hr>
+<h3>Details</h3>
 
 {% comment %}
 AUDIENCE
