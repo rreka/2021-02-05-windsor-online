@@ -475,10 +475,52 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
-{% if site.carpentry == "swc" %}
-{% include swc/setup.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/setup.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/setup.html %}
-{% endif %}
+<h3>Install R and RStudio</h3>
+<p>
+  R and RStudio are two separate pieces of software:
+  <ul>
+    <li>
+      <b>R</b> is a programming language that is especially powerful for data exploration, visualization, and statistical analysis
+    </li>
+    <li>
+      <b>RStudio</b> is an integrated development environment (IDE) that makes using R easier. In this course we use RStudio to interact with R.
+    </li>
+  </ul>
+  <div id="windows" class="section level4">
+<h4 class="hasAnchor">Windows<a href="#windows" class="anchor-section"></a></h4>
+<ul>
+<li>Download R from the <a href="https://cran.r-project.org/bin/windows/base/release.htm">CRAN website</a>.</li>
+<li>Run the <code>.exe</code> file that was just downloaded</li>
+<li>Go to the <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio download page</a></li>
+<li>Under <em>Installers</em> select <strong>RStudio x.yy.zzz - Windows Vista/7/8/10</strong> (where x, y, and z represent version numbers)</li>
+<li>Double click the file to install it</li>
+<li>Once it's installed, open RStudio to make sure it works and you don't get any error messages.</li>
+</ul>
+<div id="macos" class="section level5">
+<h5 class="hasAnchor">MacOS<a href="#macos" class="anchor-section"></a></h5>
+<ul>
+<li>Download R from the <a href="https://cran.r-project.org/bin/macosx/">CRAN website</a>.</li>
+<li>Select the <code>.pkg</code> file for the latest R version</li>
+<li>Double click on the downloaded file to install R</li>
+<li>It is also a good idea to install <a href="https://www.xquartz.org/">XQuartz</a> (needed by some packages)</li>
+<li>Go to the <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio download page</a></li>
+<li>Under <em>Installers</em> select <strong>RStudio x.yy.zzz - Mac OS X 10.6+ (64-bit)</strong> (where x, y, and z represent version numbers)</li>
+<li>Double click the file to install RStudio</li>
+<li>Once it's installed, open RStudio to make sure it works and you don't get any error messages.</li>
+</ul>
+</div>
+<div id="linux" class="section level5">
+<h5 class="hasAnchor">Linux<a href="#linux" class="anchor-section"></a></h5>
+<ul>
+<li>Follow the instructions for your distribution from <a href="https://cloud.r-project.org/bin/linux">CRAN</a>, they provide information to get the most recent version of R for common distributions. For most distributions, you could use your package manager (e.g., for Debian/Ubuntu run <code>sudo apt-get install r-base</code>, and for Fedora <code>sudo yum install R</code>), but we don't recommend this approach as the versions provided by this are usually out of date. In any case, make sure you have at least R 3.3.1.</li>
+<li>Go to the <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio download page</a></li>
+<li>Under <em>Installers</em> select the version that matches your distribution, and install it with your preferred method (e.g., with Debian/Ubuntu <code>sudo dpkg -i   rstudio-x.yy.zzz-amd64.deb</code> at the terminal).</li>
+<li>Once it's installed, open RStudio to make sure it works and you don't get any error messages.</li>
+</ul>
+</div>
+</div>
+</p>
+
+
+
+
