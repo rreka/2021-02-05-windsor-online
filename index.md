@@ -536,7 +536,15 @@ during the workshop.
 <div name="Install_required_R_packages" data-unique="Install_required_R_packages"></div><h3 class="hasAnchor">Install required R packages<a href="#install-required-r-packages" class="anchor-section"></a></h3>
 <p>During the course we will need a number of R packages. Packages contain useful R code written by other people. We will use the packages <code>tidyverse</code>, <code>hexbin</code>, <code>patchwork</code>, and <code>RSQLite</code>.</p>
 <p>To try to install these packages, open RStudio and copy and paste the following command into the console window (look for a blinking cursor on the bottom left), then press the <kbd>Enter</kbd> (Windows and Linux) or <kbd>Return</kbd> (MacOS) to execute the command.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">install.packages</span>(<span class="kw">c</span>(<span class="st">"tidyverse"</span>, <span class="st">"hexbin"</span>, <span class="st">"patchwork"</span>, <span class="st">"RSQLite"</span>))</code></pre></div>
+
+<div>
+  <pre>
+    <code>
+      <span class="kw">install.packages</span>(<span class="kw">c</span>(<span class="st">"tidyverse"</span>, <span class="st">"hexbin"</span>, <span class="st">"patchwork"</span>, <span class="st">"RSQLite"</span>))
+    </code>
+  </pre>
+</div>
+
 <p>Alternatively, you can install the packages using RStudio's graphical user interface by going to <code>Tools &gt; Install Packages</code> and typing the names of the packages separated by a comma.</p>
 <p>R tries to download and install the packages on your machine. When the installation has finished, you can try to load the packages by pasting the following code into the console:</p>
   
