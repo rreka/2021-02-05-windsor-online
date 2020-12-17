@@ -486,8 +486,8 @@ during the workshop.
       <b>RStudio</b> is an integrated development environment (IDE) that makes using R easier. In this course we use RStudio to interact with R.
     </li>
   </ul>
-  <div id="windows" class="section level4">
-<h4 class="hasAnchor">Windows<a href="#windows" class="anchor-section"></a></h4>
+  <div id="windows" class="section level5">
+<h5 class="hasAnchor">Windows<a href="#windows" class="anchor-section"></a></h5>
 <ul>
 <li>Download R from the <a href="https://cran.r-project.org/bin/windows/base/release.htm">CRAN website</a>.</li>
 <li>Run the <code>.exe</code> file that was just downloaded</li>
@@ -521,6 +521,29 @@ during the workshop.
 </div>
 </p>
 
+<div id="update-r-and-rstudio" class="section level3">
+<div name="Update_R_and_RStudio" data-unique="Update_R_and_RStudio"></div>
+  <h4 class="hasAnchor">Update R and RStudio<a href="#update-r-and-rstudio" class="anchor-section"></a></h4>
+<p>If you already have R and RStudio installed, check if your R and RStudio are up to date:</p>
+<ul>
+<li>When you open RStudio your R version will be printed in the console on the bottom left. Alternatively, you can type <code>sessionInfo()</code> into the console. If your R version is 4.0.0 or later, you don't need to update R for this lesson. If your version of R is older than that, download and install the latest version of R from the R project website <a href="https://cran.r-project.org/bin/windows/base/">for Windows</a>, <a href="https://cran.r-project.org/bin/macosx/">for MacOS</a>, or <a href="https://cran.r-project.org/bin/linux/">for Linux</a></li>
+<li>To update RStudio to the latest version, open RStudio and click on <code>Help" &gt; Check for updates</code>. If a new version is available, quit RStudio, follow the instruction on screen.</li>
+</ul>
+<p>Note: It is not necessary to remove old versions of R from your system, but if you wish to do so you can <a href="https://cran.r-project.org/bin/windows/base/rw-FAQ.html#How-do-I-UNinstall-R_003f">check here.</a></p>
+</div>
 
+<div id="install-required-r-packages" class="section level3">
+<div name="Install_required_R_packages" data-unique="Install_required_R_packages"></div><h3 class="hasAnchor">Install required R packages<a href="#install-required-r-packages" class="anchor-section"></a></h3>
+<p>During the course we will need a number of R packages. Packages contain useful R code written by other people. We will use the packages <code>tidyverse</code>, <code>hexbin</code>, <code>patchwork</code>, and <code>RSQLite</code>.</p>
+<p>To try to install these packages, open RStudio and copy and paste the following command into the console window (look for a blinking cursor on the bottom left), then press the <kbd>Enter</kbd> (Windows and Linux) or <kbd>Return</kbd> (MacOS) to execute the command.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">install.packages</span>(<span class="kw">c</span>(<span class="st">"tidyverse"</span>, <span class="st">"hexbin"</span>, <span class="st">"patchwork"</span>, <span class="st">"RSQLite"</span>))</code></pre></div>
+<p>Alternatively, you can install the packages using RStudio's graphical user interface by going to <code>Tools &gt; Install Packages</code> and typing the names of the packages separated by a comma.</p>
+<p>R tries to download and install the packages on your machine. When the installation has finished, you can try to load the packages by pasting the following code into the console:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(tidyverse)
+<span class="kw">library</span>(hexbin)
+<span class="kw">library</span>(patchwork)
+<span class="kw">library</span>(RSQLite)</code></pre></div>
+<p>If you do not see an error like <code>there is no package called ‘...’</code> you are good to go!</p>
+</div>
 
 
