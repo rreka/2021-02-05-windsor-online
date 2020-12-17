@@ -533,7 +533,7 @@ during the workshop.
 </div>
 
 <div id="install-required-r-packages" class="section level3">
-<div name="Install_required_R_packages" data-unique="Install_required_R_packages"></div><h3 class="hasAnchor">Install required R packages<a href="#install-required-r-packages" class="anchor-section"></a></h3>
+<div name="Install_required_R_packages" data-unique="Install_required_R_packages"></div><h4 class="hasAnchor">Install required R packages<a href="#install-required-r-packages" class="anchor-section"></a></h4>
 <p>During the course we will need a number of R packages. Packages contain useful R code written by other people. We will use the packages <code>tidyverse</code>, <code>hexbin</code>, <code>patchwork</code>, and <code>RSQLite</code>.</p>
 <p>To try to install these packages, open RStudio and copy and paste the following command into the console window (look for a blinking cursor on the bottom left), then press the <kbd>Enter</kbd> (Windows and Linux) or <kbd>Return</kbd> (MacOS) to execute the command.</p>
 
